@@ -44,12 +44,9 @@ export const Small = {
 	},
 };
 
-export const Warning = {
+export const Test = {
 	args: {
-		primary: false,
-		size: 'medium',
-		label: 'Delete now',
-		className:
-			'storybook-button storybook-button--medium storybook-button--warning',
+		size: 'small',
+		label: 'Button',
 	},
 };

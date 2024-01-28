@@ -1,8 +1,7 @@
 @use 'scss/colors.scss';
-
-.header {
-	color: green;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 .storybook-button {
 	padding: 0.9rem;
