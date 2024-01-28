@@ -31,7 +31,7 @@ function App() {
 					/>
 				</a>
 			</div>
-			<h1 className='text-red-600 header'>Vite + React</h1>
+			<h1 className='text-green-700 text-7xl header'>Vite + React</h1>
 			<div className='card'>
 				<button onClick={() => setCount((count) => count + 1)}>
 					count is {count}
