@@ -1,7 +1,7 @@
 @use 'scss/colors.scss';
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 .storybook-button {
 	padding: 0.9rem;
@@ -44,5 +44,22 @@
 	&--warning {
 		background-color: var(--color-warning);
 		color: white;
+	}
+}
+
+.light {
+	padding: 20px;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+
+	&--green {
+		background-color: green;
+	}
+	&--yellow {
+		background-color: yellow;
+	}
+	&--red {
+		background-color: red;
 	}
 }
